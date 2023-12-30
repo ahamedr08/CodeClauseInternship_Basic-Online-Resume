@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #3498db;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    color: #333;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#generatedResume {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+}
+
+/* Styles for specific sections */
+#generatedResume h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#generatedResume p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#generatedResume ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#generatedResume li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+textarea {
+    resize: vertical;
+}
